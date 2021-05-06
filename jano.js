@@ -24,7 +24,7 @@ const moment = require ("moment")
 const jano = new Discord.Client();
 const prefix = "/";
 
-jano.login("Nzk0NDYwNTE1MzE3MTg2NTcw.X-7JAw.Bnr3OD5opN0-lqC6O50-KO5chdg"); 
+jano.login(""); 
 
 jano.on("ready", async () => {
   console.log(`Logged in as ${jano.user.username}!`);
